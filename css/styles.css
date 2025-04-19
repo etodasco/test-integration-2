@@ -206,8 +206,8 @@ header h1 {
   margin: 0;
 }
 
-/* Icon-text */
-.icon-text {
+/* reading-together-text */
+.reading-together-text {
   font-family: "inter", monospace;
   font-size: 20px;
   font-weight: 400;
@@ -223,7 +223,7 @@ header h1 {
   color: #385159;
 }
 
-.icon-text p {
+.reading-together-text p {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 1.5;
