@@ -249,7 +249,7 @@ header h1 {
   width: 100%;
 }
 
-.text-left {
+.card-text-left {
   flex: 1;
   display: flex;
   flex-direction: column;
