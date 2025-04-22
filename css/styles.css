@@ -495,55 +495,113 @@ header h1 {
   background-color: white;
 }
 
-/* Footer */
-footer {
+/* Testimonials */
+.testimonial {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  width: 100%; /* Ensure footer spans the full width */
-  height: 586px;
-  background-color: #385159;
-  border-radius: 10px 10px 0 0;
-}
-
-footer h2,
-footer p,
-footer a,
-footer img,
-footer .star-rating {
-  margin: 10px auto;
+  padding: 20px;
 }
 
 .star-rating img {
-  margin: 0 2px;
+  width: 28px;
+  height: 28px;
+}
+
+.testimonial h2 {
+  font-family: "Martian Mono", monospace;
+  font-size: 34px;
+  font-weight: 600;
+  max-width: 1200px;
+  margin: 20px 0;
+  word-spacing: -0.5px;
+}
+
+.testimonial p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #385159;
+}
+
+footer {
+  background-color: #062630;
+  padding: 40px 20px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box; /* Ensure padding doesn't affect the overall width */
+}
+
+footer h2 {
+  font-family: "Martian Mono", monospace;
+  font-size: 34px;
+  font-weight: 600;
+  margin: 20px 0;
+  word-spacing: -0.5px;
+}
+
+footer .card-btn {
+  margin: 20px auto;
+}
+
+footer img {
+  display: block;
+  margin: 10px auto;
+}
+
+footer .star-rating {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin: 16px 0;
 }
 
 footer hr {
-  border: 1px solid #ddd;
+  border: none;
+  border-top: 1px solid #444;
   width: 90%;
+  margin: 30px auto;
 }
 
 .footer-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: left;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .copy-write {
-  margin-left: 10px;
   font-size: 0.9rem;
-  color: #fff;
+  color: #ccc;
 }
 
 .social-icons {
   display: flex;
-  gap: 10px;
-  margin-right: 10px;
+  gap: 12px;
+  margin-left: auto;
 }
 
-.social-icon {
+.social-icons a img {
   width: 24px;
   height: 24px;
+  transition: opacity 0.3s ease;
 }
+
+.social-icons a img:hover {
+  opacity: 0.7;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
