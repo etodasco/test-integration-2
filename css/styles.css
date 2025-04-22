@@ -1,22 +1,33 @@
+/* ---- Global settings ---- */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 /* ---- Global Container ---- */
 .container {
-  width: 100vw;
-  padding: 0 20px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: auto;
 }
 
 /* ---- Header ---- */
 header {
   width: 100%;
+  height: 340px;
   background-color: #062630;
-  padding: 40px 0;
 }
 
 header h1 {
   font-size: 7rem;
   color: #ffffff;
-  margin: 60px 0 40px 40px;
-  padding-left: 20px;
+  text-align: start;
+  padding: 100px;
 }
 
 /* ---- Logo ---- */
@@ -24,7 +35,7 @@ header h1 {
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   padding: 20px 20px 0 20px;
   max-width: 1200px;
   margin: 0 auto;
@@ -47,9 +58,9 @@ header h1 {
 
 .content-wrapper {
   display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  gap: 40px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 21px;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -59,10 +70,14 @@ header h1 {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-  max-height: 621px;
+  justify-content: flex-start;
+  align-items: flex-start;
   max-width: 570px;
+  padding-top: 10px;
+  gap: 15px;
+  height: 606px;
+  margin-top: -22px;
+  margin-right: 10px;
 }
 
 .card-title {
@@ -70,7 +85,9 @@ header h1 {
   font-size: 62px;
   font-weight: 700;
   color: black;
-  margin: 0px;
+  margin: 0;
+  padding-top: 0;
+  gap: 32px;
 }
 
 .card-text {
@@ -80,7 +97,7 @@ header h1 {
   color: #385159;
   line-height: 1.6;
   letter-spacing: -0.5px;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .card-btn {
@@ -111,8 +128,8 @@ header h1 {
 .card-image {
   flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .hero-image {
@@ -154,8 +171,8 @@ header h1 {
 /* ---- Section 2 ---- */
 .main-section-2 {
   width: 100%;
-  margin: 100px;
-  background-color: #fff;
+  padding: 100px 0;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -167,33 +184,34 @@ header h1 {
   justify-content: space-between;
   gap: 80px;
   width: 100%;
-  height: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 /* ---- Image - Left Side ---- */
 .card-image-left {
   flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .hero-image-2 {
   width: 100%;
-  max-width: 560px;
-  height: auto;
-  border-radius: 15px;
+  max-width: 540px;
+  height: 606px;
+  object-fit: cover;
+  border-radius: 3%;
 }
 
 /* ---- Card Title (Section 2) ---- */
 .card-title-2 {
   font-family: "Martian Mono", monospace;
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 700;
   color: black;
-  line-height: 1.2;
-  letter-spacing: -2px;
-  margin: 0px;
+  line-height: 1.3;
+  margin: 0;
   padding-bottom: 10px;
 }
 
@@ -202,15 +220,18 @@ header h1 {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  gap: 15px;
-  height: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 606px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* ---- reading-together-text ---- */
 .reading-together-text {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
   position: relative;
 }
@@ -220,7 +241,7 @@ header h1 {
   height: 24px;
   color: #385159;
   position: relative;
-  top: 14px;
+  top: 5px;
 }
 
 .reading-together-text p {
@@ -235,8 +256,7 @@ header h1 {
 /* ---- Section 3 ---- */
 .main-section-3 {
   width: 100%;
-  padding: 100px 20px;
-  background-color: #fff;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -248,23 +268,68 @@ header h1 {
   justify-content: space-between;
   gap: 40px;
   width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
-.card-text-left {
+/* ---- Image - Right Side ---- */
+.image-right {
   flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  overflow: visible;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-left: 20px;
+  position: relative;
 }
 
+.hero-image-3 {
+  width: 100%;
+  max-width: 540px;
+  height: 606px;
+  object-fit: cover;
+  border-radius: 3%;
+}
+
+/* ---- Tech Logos ---- */
+.tech-logos {
+  position: absolute;
+  bottom: 40px;
+  left: -72px;
+  width: 119.56px;
+  height: 138px;
+  z-index: 2;
+}
+
+/* ---- Card Title (Section 3) ---- */
 .card-title-3 {
   font-family: "Martian Mono", monospace;
   font-size: 50px;
   font-weight: 700;
   color: black;
-  line-height: 1.2;
+  line-height: 1.1;
   margin-bottom: 30px;
+}
+
+/* ---- Text - Left Side ---- */
+.card-text-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  height: 606px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+/* ---- Card Text (Section 3) ---- */
+.card-text-3 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #385159;
+  margin: 0;
 }
 
 /* ---- Club Word ---- */
@@ -289,38 +354,6 @@ header h1 {
   transform-origin: center;
   z-index: -1;
   pointer-events: none;
-}
-
-.card-text-3 {
-  font-family: "Inter", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #385159;
-  margin: 0;
-}
-
-.image-right {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
-
-.hero-image-3 {
-  width: 100%;
-  max-width: 560px;
-  height: auto;
-  border-radius: 15px;
-}
-
-.tech-logos {
-  position: absolute;
-  bottom: 20px;
-  left: -50px;
-  width: 120px;
-  height: auto;
-  z-index: 2;
 }
 
 /* Reading-journey */
@@ -591,10 +624,3 @@ footer hr {
 .social-icons a img:hover {
   opacity: 0.7;
 }
-
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
