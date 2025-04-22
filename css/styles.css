@@ -368,6 +368,8 @@ header h1 {
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 100px;
+  letter-spacing: -2px;
+  line-height: 130%;
 }
 
 .journey-steps .step:first-child {
@@ -416,15 +418,15 @@ header h1 {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 0; 
-  left: 65%;
+  top: 10%; 
+  left: 45%;
   margin-left: 10px;
 }
 
 .step img.pattern-arrow {
   width: 76.74px;
   height: 20.51px;
-  transform: rotate(-8.69deg);
+  transform: rotate(1.69deg) scale(1.7);
 }
 
 /* Membership Options */
