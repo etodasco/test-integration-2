@@ -186,6 +186,7 @@ header h1 {
   width: 100%;
   padding: 0 20px;
   margin: 0 auto;
+  margin-bottom: 0;
 }
 
 /* ---- Image - Left Side ---- */
@@ -270,6 +271,7 @@ header h1 {
   width: 100%;
   padding: 0 20px;
   margin: 0 auto;
+  margin-bottom: 5%;
 }
 
 /* ---- Image - Right Side ---- */
@@ -446,6 +448,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 0%;
 }
 
 .membership-options .cards-container {
@@ -460,14 +463,20 @@ header h1 {
 .membership-card {
   background-color: #fff;
   border: 1px solid lightgray;
-  border-radius: 20px;
-  padding: 30px 20px;
-  width: 300px;
-  text-align: center;
+  border-radius: 8px;
+  padding: 20px 20px;
+  width: 286px;
+  height: 358px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .membership-card.featured {
-  width: 340px;
+  background-color: #E6E1DF;
+  width: 350px;
+  height: 390px;
   padding: 40px 25px;
   transform: scale(1.05);
   z-index: 1;
@@ -487,17 +496,37 @@ header h1 {
 .card-title-membership {
   font-family: "Martian Mono", monospace;
   font-size: 24px;
-  width: 128px;
   font-weight: 600;
+  margin-bottom: 15px;
 }
 
 .card-price {
-  font-family: "inter";
-  font-size: 20px;
-  font-weight: 400;
+  display: inline;
+  font-family: "Martian Mono", monospace;
+  font-size: 34px;
+  font-weight: 600;
   color: black;
-  margin-bottom: 10px;
+  margin-bottom: 5px; /* Adjusted for spacing */
   text-align: left;
+  line-height: 130%;
+  letter-spacing: -1px;
+}
+
+.card-month {
+  font-family: "inner";
+  font-weight: 400;
+  font-size: 20px;
+  color: #385159;
+  display: inline;
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid #ccc;
+  margin: 10px 0;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-feature {
@@ -513,10 +542,34 @@ header h1 {
 }
 
 .card-description {
-  margin: 0;
+  font-family: "inter", monospace;
   font-size: 16px;
-  text-align: left;
+  font-weight: 400;
+  color: #385159;
   margin: 5px 0;
+  text-align: left;
+}
+
+.membership-card-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 16px;
+  width: 238px;
+  height: 63px;
+  font-family: "Martian Mono", monospace;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: black;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #fff5ef;
+  cursor: pointer;
+  margin-top: 10px;
+  align-self: center;
 }
 
 .card-btn:hover {
@@ -525,13 +578,14 @@ header h1 {
 
 /* Testimonials */
 .testimonial {
-  min-height: 100vh;
+  min-height: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 20px;
+  margin-top: 0;
+  border: 0;
 }
 
 .star-rating img {
@@ -562,7 +616,7 @@ footer {
   color: #fff;
   width: 100%;
   margin: 0;
-  box-sizing: border-box; /* Ensure padding doesn't affect the overall width */
+  box-sizing: border-box;
 }
 
 footer h2 {
