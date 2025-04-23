@@ -52,6 +52,14 @@ header h1 {
 /* ---- Section 1 ---- */
 .main-section {
   background-color: #faf5f3;
+  background-image: 
+  url('../assets/images/pattern-glow.svg'), 
+  url('../assets/images/pattern-light-bg.svg');
+  padding: 80px 20px;
+  background-position: 210% -150%, right top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, cover;
+  text-align: left;
   width: 100%;
   padding: 100px 0;
   margin-bottom: 50px;
@@ -359,10 +367,15 @@ header h1 {
   pointer-events: none;
 }
 
-/* Reading-journey */
 .reading-journey {
   padding: 80px 20px;
   background-color: #faf5f3;
+  background-image: 
+    url('../assets/images/pattern-glow.svg'), 
+    url('../assets/images/pattern-light-bg.svg');
+  background-position: 210% 10%, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, cover;
   text-align: center;
 }
 
@@ -475,7 +488,11 @@ header h1 {
 }
 
 .membership-card.featured {
-  background-color: #e6e1df;
+  background-color: #FAF5F3;
+  background-image: url('../assets/images/pattern-glow.svg');
+  background-position: 20% 0%, right top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, cover;
   width: 350px;
   height: 390px;
   padding: 40px 25px;
