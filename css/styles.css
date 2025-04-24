@@ -130,6 +130,11 @@ Header h1 {
   cursor: pointer;
 }
 
+.primary-btn:hover {
+  background-color: #f0e0d0;
+  border-color: #f2a900;
+}
+
 .component_total-testimonial {
   display: flex;
   align-items: center;
@@ -161,8 +166,11 @@ Header h1 {
 
 /* Row for stars and testimonial text */
 .rating-content {
+  height: 28px;
+  width: 164px;
   display: flex;
   align-items: center;
+  gap: 6px;
 }
 
 /* Stars */
@@ -599,6 +607,11 @@ h2.title {
   cursor: pointer;
 }
 
+.membership-card-btn:hover {
+  background-color: #f0e0d0;
+  border-color: #f2a900;
+}
+
 .membership-card-btn-featured {
   display: block;
   margin: 15px auto 0 auto;
@@ -617,6 +630,11 @@ h2.title {
   cursor: pointer;
 }
 
+.membership-card-btn-featured:hover {
+  background-color: #f0e0d0;
+  border-color: #f2a900;
+}
+
 /* Testimonials */
 .testimonial {
   min-height: 65vh;
@@ -626,12 +644,22 @@ h2.title {
   align-items: center;
   text-align: center;
   margin-top: 12%;
-  border: 0;
 }
 
-.star-rating img {
+.star-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+  width: fit-content;
+}
+
+.star {
   width: 28px;
   height: 28px;
+  object-fit: contain;
+  display: block; /* better image alignment */
 }
 
 .testimonial h2 {
@@ -715,12 +743,16 @@ h2.title {
   border: 2px solid #ffffff;
   padding: 20px 24px;
   background: linear-gradient(90deg, #385159, #062630);
-
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
   cursor: pointer;
+}
+
+.alternate-button:hover {
+  background: linear-gradient(90deg, #2f3d47, #05181d);
+  border-color: #f2a900;
 }
 
 .alternate-button-text {
