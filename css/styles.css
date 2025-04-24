@@ -384,7 +384,7 @@ p.rating-text {
 
 .step-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100%;
   height: 133px;
   gap: 48px;
@@ -435,14 +435,14 @@ img.box1,
 
 img.pattern-arrow {
   position: relative;
-  top: -90px;
-  right: -140px;
+  top: -100px;
+  right: -160px;
 }
 
 img .pattern-arrow {
   width: 76.74px;
   height: 20.51px;
-  transform: rotate(8.7deg) scale(1.7);
+  transform: rotate(8.7deg) scale(1.9);
 }
 
 /* ---- Membership Options Section 5 ---- */
