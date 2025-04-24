@@ -1,198 +1,202 @@
-html, body {
+html,
+body {
   overflow-x: hidden;
-}  
+  margin-bottom: 0;
+}
 
 /* ---- Header ---- */
 header {
-width: 100%;
-height: 340px;
-top: -2941px;
-left: -720px;
-border-radius: 2px;
-border: 1px solid #ffffff;
-background-color: #062630;
+  width: 100%;
+  height: 340px;
+  top: -2941px;
+  left: -720px;
+  border-radius: 2px;
+  border: 1px solid #ffffff;
+  background-color: #062630;
 }
 
 Header h1 {
-color: #ffffff;
-width: 700px;
-height: 140px;
-margin-top: 100px;
-margin-left: 100px;
-font-family: "inter";
-font-weight: 700;
-font-size: 100px;
-line-height: 140%;
-letter-spacing: 0%;
+  color: #ffffff;
+  width: 700px;
+  height: 140px;
+  margin-top: 100px;
+  margin-left: 100px;
+  font-family: "inter";
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 140%;
+  letter-spacing: 0%;
 }
 
 .desktop-container {
-width: 100%;
-height: 4598px;
-top: -2423px;
-left: -720px;
-gap: 120px;
-background-color: #ffffff;
+  width: 100%;
+  height: 4598px;
+  top: -2423px;
+  left: -720px;
+  gap: 120px;
+  background-color: #ffffff;
 }
 
+/* ---- Main Container ---- */
 .main-container {
-margin-top: 8%;
-width: 100%;
-height: 849px;
-padding: 32px 135px 24px 135px;
-gap: 80px;
-background-color: #faf5f3;
-background-image: url("../assets/images/pattern-light-bg.svg"),
-  url("../assets/images/pattern-glow.svg");
-background-size: stretch, 50% 50%;
-background-position: cover, 100% 100%;
-background-repeat: repeat, no-repeat;
-gap: 120px;
+  margin-top: 8%;
+  width: 100%;
+  height: 849px;
+  padding: 32px 135px 24px 135px;
+  gap: 80px;
+  background-color: #faf5f3;
+  background-image: url("../assets/images/pattern-light-bg.svg"),
+    url("../assets/images/pattern-glow.svg");
+  background-size: stretch, 50% 50%;
+  background-position: cover, 100% 100%;
+  background-repeat: repeat, no-repeat;
+  gap: 120px;
 }
 
 .bg-container {
-width: 100%;
-height: 820px;
+  width: 100%;
+  height: 820px;
 }
 
 .navbar {
-width: 1184.6px;
-height: 36px;
-border-radius: 16px;
-gap: 30px;
+  width: 1184.6px;
+  height: 36px;
+  border-radius: 16px;
+  gap: 30px;
 }
 
 .grid {
-margin-top: 8%;
-width: 1174px;
-height: 621px;
-display: flex;
-align-items: center;
-justify-content: left;
-gap: 64px;
+  margin-top: 8%;
+  width: 1174px;
+  height: 621px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 64px;
 }
 
 .content-container {
-width: 570px;
-height: 621px;
-gap: 32px;
+  width: 570px;
+  height: 621px;
+  gap: 32px;
 }
 
 .card-title {
-width: 570px;
-height: 296px;
-font-family: "Martian Mono", monospace;
-font-weight: 700;
-font-size: 62px;
-line-height: 120%;
-letter-spacing: -2px;
-background: linear-gradient(90deg, #fea36f, #062630, black);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-color: black;
-margin: 0;
+  width: 570px;
+  height: 296px;
+  font-family: "Martian Mono", monospace;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 120%;
+  letter-spacing: -2px;
+  background: linear-gradient(90deg, #fea36f, #062630, black);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+  margin: 0;
 }
 
 .text-preset-5 {
-width: 570px;
-height: 140px;
-font-family: "Inter", sans-serif;
-font-weight: 400;
-font-size: 20px;
-color: #385159;
-line-height: 140%;
-letter-spacing: -0.5px;
+  width: 570px;
+  height: 140px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #385159;
+  line-height: 140%;
+  letter-spacing: -0.5px;
 }
 
 .primary-btn {
-width: 461px;
-height: 64px;
-border-radius: 8px;
-border: 2px solid #062630;
-padding: 20px 24px 20px 24px;
-background-color: #fff5ef;
-display: inline-flex;
-align-items: center;
-justify-content: center;
-gap: 16px;
-font-family: "Martian Mono", monospace;
-font-size: 18px;
-font-weight: 600;
-line-height: 130%;
-letter-spacing: -1px;
-text-transform: uppercase;
-white-space: nowrap;
-color: #062630;
-cursor: pointer;
+  width: 461px;
+  height: 64px;
+  border-radius: 8px;
+  border: 2px solid #062630;
+  padding: 20px 24px 20px 24px;
+  background-color: #fff5ef;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-family: "Martian Mono", monospace;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #062630;
+  cursor: pointer;
 }
 
 .component_total-testimonial {
-display: flex;
-align-items: center;
-gap: 12px;
-width: 100%;
-height: auto;
-margin-top: 4%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  height: auto;
+  margin-top: 4%;
 }
 
 /* Container for the testimonial images (avatar-style) */
 .testimonial-images {
-display: flex;
-align-items: center;
-gap: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .testimonial-images-container {
-width: 110px;
-height: 40px;
+  width: 110px;
+  height: 40px;
 }
 
 /* Stars and text side-by-side inside rating-container */
 .rating-container {
-display: flex;
-flex-direction: column;
-justify-content: center;
-gap: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
 }
 
 /* Row for stars and testimonial text */
 .rating-content {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 /* Stars */
 .stars-container {
-width: 120px;
-height: 24px;
-display: flex;
-align-items: center;
+  width: 120px;
+  height: 24px;
+  display: flex;
+  align-items: center;
 }
 
 /* Text */
 .testimonial-text {
-font-family: "", sans-serif;
-font-size: 14px;
-color: #385159;
-line-height: 1.4;
+  font-family: "", sans-serif;
+  font-size: 14px;
+  color: #385159;
+  line-height: 1.4;
 }
 
 p.rating-text {
-font-family: "Martian Mono", monospace;
-font-weight: 400;
-font-size: 14px;
-line-height: 120%;
-letter-spacing: -1px;
-margin: 0;
+  font-family: "Martian Mono", monospace;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: -1px;
+  margin: 0;
 }
 
 .hero-image {
-width: 540px;
-height: 606px;
-border-radius: 8px;
+  width: 540px;
+  height: 606px;
+  border-radius: 8px;
 }
 
+/* ---- Container Section 2 ---- */
 .main-container-2 {
   width: 1170px;
   height: 525px;
@@ -201,6 +205,7 @@ border-radius: 8px;
   justify-content: center;
   margin: 80px auto 0 auto;
   gap: 80px;
+  margin-top: 8%;
 }
 
 .hero-image-2 {
@@ -248,7 +253,7 @@ border-radius: 8px;
 .checkmark-icon {
   width: 24px;
   height: 24px;
-  margin-top: 0px
+  margin-top: 0px;
 }
 
 .list-item p {
@@ -262,6 +267,7 @@ border-radius: 8px;
   color: #385159;
 }
 
+/* ---- Main Container Section 3 ---- */
 .main-container-3 {
   width: 100%;
   max-width: 1170px;
@@ -269,6 +275,7 @@ border-radius: 8px;
   display: flex;
   margin: 80px auto 0 auto;
   gap: 80px;
+  margin-top: 8%;
 }
 
 .text-container-3 {
@@ -339,7 +346,7 @@ border-radius: 8px;
   border-radius: 16px;
 }
 
-/* Reading Journey */
+/* ---- Reading Journey Section 4 ---- */
 .reading-journey {
   margin-top: 8%;
   width: 100%;
@@ -347,23 +354,24 @@ border-radius: 8px;
   border-radius: 12px;
   padding: 80px 0 80px 0;
   gap: 64px;
-  background-color: #FAF5F3;
+  background-color: #faf5f3;
   background-image: url("../assets/images/pattern-light-bg.svg"),
-  url("../assets/images/pattern-glow.svg");
+    url("../assets/images/pattern-glow.svg");
   background-position: fill, 100% 100%;
   background-repeat: repeat, no-repeat;
 }
 
 .reading-journey h2 {
   width: 100%;
-  height: 195px;
   text-align: center;
   font-family: "Martian Mono", monospace;
   font-size: 50px;
   font-weight: 600;
   line-height: 130%;
-  margin-bottom: 100px;
   letter-spacing: -2px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 .step-container {
@@ -371,7 +379,8 @@ border-radius: 8px;
   justify-content: center;
   width: 100%;
   height: 133px;
-  gap: 48px
+  gap: 48px;
+  margin-top: 8%;
 }
 
 .step1 {
@@ -428,22 +437,26 @@ img .pattern-arrow {
   transform: rotate(8.7deg) scale(1.7);
 }
 
-/* Membership Options */
-
+/* ---- Membership Options Section 5 ---- */
 .membership-options {
   width: 100%;
   height: 519px;
   gap: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.option-card {
-  width: 286px;
-  height: 358px;
-  border-radius: 8px;
-  border: 1px solid #E6E1DF;
-  padding: 24px;
-  gap: 32px;
-  background-color: white;
+.options-container {
+  width: 970px;
+  height: 390px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  margin-top: 8%;
 }
 
 .option-card-title {
@@ -454,7 +467,39 @@ img .pattern-arrow {
   font-weight: 600;
   line-height: 130%;
   letter-spacing: -2px;
+  text-align: right;
+}
+
+h2.title {
+  font-family: "Martian Mono", monospace;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2px;
   text-align: center;
+  margin-top: 12%;
+}
+
+.option-card {
+  width: 286px;
+  height: 358px;
+  border-radius: 8px;
+  border: 1px solid #e6e1df;
+  padding: 24px;
+  gap: 32px;
+  background-color: white;
+}
+
+.option-card-2 {
+  width: 350px;
+  height: 390px;
+  border-radius: 8px;
+  border: 1px solid #e6e1df;
+  padding: 24px;
+  gap: 32px;
+  background-color: #faf5f3;
+  background-image: url("../assets/images/pattern-glow.svg");
+  background-position: -125% 0%;
 }
 
 .option-name {
@@ -482,10 +527,26 @@ img .pattern-arrow {
   color: #062630;
 }
 
+.card-month {
+  font-family: "Inter", monospace;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+  color: #385159;
+}
+
+.divider {
+  width: 302px;
+  height: 1px;
+  color: #e6e1df;
+  margin: 30px 0 30px 0;
+}
+
 .features-container {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 0px;
 }
 
 .card-feature {
@@ -497,8 +558,11 @@ img .pattern-arrow {
 .card-description {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   color: #385159;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+  margin: 10px;
 }
 
 .feature-item-1,
@@ -518,15 +582,13 @@ img .pattern-arrow {
 }
 
 .membership-card-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
+  display: block;
+  margin: 10px auto 0 auto;
   padding: 12px 16px;
   width: 238px;
   height: 63px;
   font-family: "Martian Mono", monospace;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
   white-space: nowrap;
@@ -535,8 +597,24 @@ img .pattern-arrow {
   border-radius: 8px;
   background-color: #fff5ef;
   cursor: pointer;
-  margin-top: 10px;
-  align-self: center;
+}
+
+.membership-card-btn-featured {
+  display: block;
+  margin: 15px auto 0 auto;
+  padding: 12px 16px;
+  width: 238px;
+  height: 63px;
+  font-family: "Martian Mono", monospace;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: black;
+  border: 2px solid black;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #ffe2d1, #fff5ef);
+  cursor: pointer;
 }
 
 /* Testimonials */
@@ -547,7 +625,7 @@ img .pattern-arrow {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 0;
+  margin-top: 12%;
   border: 0;
 }
 
@@ -570,4 +648,184 @@ img .pattern-arrow {
   font-size: 20px;
   font-weight: 400;
   color: #385159;
+}
+
+/* ---- Footer Section ---- */
+.footer {
+  width: 1226px;
+  height: 586px;
+  background-color: #062630;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 80px 135px 0 135px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  background-image: url(../assets/images/pattern-dark-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-content-container-footer {
+  width: 753px;
+  height: 372px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.footer-main-heading {
+  width: 685px;
+  /* height: 195px; */
+  font-family: "Martian Mono", monospace;
+  font-size: 50px;
+  font-weight: 600;
+  color: #faf5f3;
+  line-height: 130%;
+  letter-spacing: -2px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-main-heading h2 {
+  font-size: 50px;
+}
+
+.footer-cta {
+  width: 484px;
+  height: 137px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.alternate-button {
+  width: 449px;
+  height: 64px;
+  border-radius: 8px;
+  border: 2px solid #ffffff;
+  padding: 20px 24px;
+  background: linear-gradient(90deg, #385159, #062630);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.alternate-button-text {
+  font-family: "Martian Mono", monospace;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -1px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.up-arrow {
+  width: 20px;
+  height: 20px;
+}
+
+.component-total-testimonial {
+  width: 484px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 25px;
+}
+
+.avatars-stars {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.testimonial-images {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.testimonial-images img {
+  height: 40px;
+  width: auto;
+}
+
+.star-rating {
+  height: 20px;
+  width: 17.06px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.star-rating img {
+  height: 20px;
+  width: 17.06px;
+}
+
+.testimonial-text {
+  text-align: start;
+  font-family: "Martian Mono", monospace;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: -30px;
+}
+
+.bottom-content-container-footer {
+  height: 70px;
+  width: 170%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px 0;
+  border-top: 1px solid white;
+  position: relative;
+  bottom: 30px;
+  margin-left: -50px;
+}
+
+.footer-text {
+  font-family: "Martian Mono", monospace;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.social-icons ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+}
+
+.social-icons a {
+  display: inline-block;
+}
+
+.social-icons img {
+  height: 24px;
+  width: auto;
 }
