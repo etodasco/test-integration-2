@@ -357,7 +357,7 @@ p.rating-text {
   background-color: #faf5f3;
   background-image: url("../assets/images/pattern-light-bg.svg"),
     url("../assets/images/pattern-glow.svg");
-  background-position: fill, 100% 100%;
+  background-position: 200% 0%;
   background-repeat: repeat, no-repeat;
 }
 
