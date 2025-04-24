@@ -48,7 +48,7 @@ Header h1 {
   background-image: url("../assets/images/pattern-light-bg.svg"),
     url("../assets/images/pattern-glow.svg");
   background-size: stretch, 50% 50%;
-  background-position: cover, 100% 100%;
+  background-position: 140% -140%;
   background-repeat: repeat, no-repeat;
   gap: 120px;
 }
